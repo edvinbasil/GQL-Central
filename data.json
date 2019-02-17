@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Beeple Crap",
+      "email": "beeple@crap.xyz",
+      "age": 35
+    },
+    {
+      "id": "2",
+      "name": "Mantissa",
+      "email": "mantissa@crap.xyz",
+      "age": 38
+    },
+    {
+      "id": "3",
+      "name": "Midge",
+      "email": "Midge@crap.xyz",
+      "age": 41
+    },
+    {
+      "id": "4",
+      "name": "Gleb",
+      "email": "gleb@crap.xyz",
+      "age": 25
+    }
+  ]
+}

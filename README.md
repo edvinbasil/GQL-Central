@@ -19,7 +19,7 @@ this uses nodemon as a dependency. so if you dont have nodemon installed, instal
     
 ###Graphiql interface
 
-Running the development server starts an express server on port __3000__
+Running the development server starts an express server on port __4000__
 GraphiQL is set up on the /graphql endpoint.
-Goto [localhost:3000/graphql](http://localhost:3000/graphql/) to use the interface.
+Goto [localhost:4000/graphql](http://localhost:4000/graphql/) to use the interface.
 
