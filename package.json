@@ -4,6 +4,7 @@
   "description": "Central graphql server for all my apis",
   "main": "server.js",
   "scripts": {
+    "dev:server": "nodemon server.js"
   },
   "author": "Edvin Basil Samuval",
   "license": "ISC",
