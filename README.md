@@ -1,10 +1,10 @@
 # GQL Central
-#####GraphQL central server to serve all APIs
+##### GraphQL central server to serve all APIs
 
 Built as a project to learn GraphQL and also use it to serve my APIs that currently use REST.
 
 
-##Installation & Usage
+## Installation & Usage
 Just like any other node project, use npm to install it
 
     npm install
@@ -17,7 +17,7 @@ this uses nodemon as a dependency. so if you dont have nodemon installed, instal
 
     npm i -g nodemon
     
-###Graphiql interface
+### Graphiql interface
 
 Running the development server starts an express server on port __4000__
 GraphiQL is set up on the /graphql endpoint.
