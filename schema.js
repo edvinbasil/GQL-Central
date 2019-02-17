@@ -8,16 +8,6 @@ const {
     GraphQLNonNull
 } = require('graphql')
 
-/*
-// Hardcoded Data
-const customers = [
-    {id: '1', name: 'Beeple Crap', email: 'beeple@crap.xyz', age: 35},
-    {id: '2', name: 'Mantissa', email: 'mantissa@crap.xyz', age: 38},
-    {id: '3', name: 'Midge', email: 'Midge@crap.xyz', age: 41},
-    {id: '4', name: 'Gleb', email: 'gleb@crap.xyz', age: 25}
-]
-*/
-
 //CustomerType
 const CustomerType = new GraphQLObjectType({
     name: 'Customer',
@@ -43,12 +33,6 @@ const RootQuery = new GraphQLObjectType({
 
                 return axios.get('http://localhost:3000/customers/' + args.id)
                     .then(res => res.data)
-                // for (let i = 0; i < customers.length; i++) {
-                //     if (customers[i].id == args.id) {
-                //         return customers[i];
-                //     }
-                // }
-
             }
         },
         customers: {
